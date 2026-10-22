@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiFlag.FlagsPage"
+             Title="FlagsPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+            Text="Frane"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Grid ColumnDefinitions="*,*,*" HeightRequest="200">
+                <BoxView BackgroundColor="Blue" Grid.Column="0" />
+                <BoxView BackgroundColor="White"  Grid.Column="1" />
+                <BoxView BackgroundColor="Red"  Grid.Column="2" />
+            </Grid>
+            <Label 
+            Text="Germany"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Grid RowDefinitions="*,*,*" HeightRequest="200">
+                <BoxView BackgroundColor="Black" Grid.Row="0" />
+                <BoxView BackgroundColor="yellow" Grid.Row="1" />
+                <BoxView BackgroundColor="Red"  Grid.Row="2" />
+            </Grid>
+            <Label 
+             Text="Switzerland"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            <Grid BackgroundColor="Red" HeightRequest="200">
+                <BoxView 
+             BackgroundColor="White" 
+             WidthRequest="50"
+             HeightRequest="150"
+             HorizontalOptions="Center"
+             VerticalOptions="Center" />
+                <BoxView
+             BackgroundColor="White"
+                WidthRequest="150"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            </Grid>
+
+            <Label 
+             Text="Israel"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            <Grid BackgroundColor="White" HeightRequest="200">
+                <BoxView
+           BackgroundColor="Blue"
+              HeightRequest="30"
+              VerticalOptions="Start"
+              Margin="0,20,0,0"/>
+                <BoxView
+              BackgroundColor="Blue"
+                 HeightRequest="30"
+                VerticalOptions="End"
+                 Margin="0,0,0,20"/>
+                <Image
+                    Source="triangle.png"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="0,-15,0,0"/>
+                <Image
+                    Source="triangle.png"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Rotation="180"
+                    Margin="0,15,0,0"/>
+            </Grid>
+
+            <Label 
+             Text="Canada"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            <Grid ColumnDefinitions="*,2*,*" HeightRequest="200">
+                <BoxView BackgroundColor="Red" Grid.Column="0" />
+                <BoxView BackgroundColor="White"  Grid.Column="1" />
+                <BoxView BackgroundColor="Red"  Grid.Column="2" />
+                <Image
+                    Source="redleaf.png"
+                    Grid.Column="1"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+                </Grid>
+            <Label 
+             Text="USA"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+            
+            <Grid RowDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*" HeightRequest="200">
+                <BoxView BackgroundColor="Red" Grid.Row="0" />
+                <BoxView BackgroundColor="White"  Grid.Row="1" />
+                <BoxView BackgroundColor="Red"  Grid.Row="2" />
+                <BoxView BackgroundColor="White"  Grid.Row="3" />
+                <BoxView BackgroundColor="Red"  Grid.Row="4" />
+                <BoxView BackgroundColor="White"  Grid.Row="5" />
+                <BoxView BackgroundColor="Red"  Grid.Row="6" />
+                <BoxView BackgroundColor="White"  Grid.Row="7" />
+                <BoxView BackgroundColor="Red"  Grid.Row="8" />
+                <BoxView BackgroundColor="White"  Grid.Row="9" />
+                <BoxView BackgroundColor="Red"  Grid.Row="10" />
+                <BoxView BackgroundColor="White"  Grid.Row="11" />
+                <Image
+                    Source="america.png"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                      WidthRequest="80"
+                      HeightRequest="80"/>
+                </Grid>
+            
+
+
+
+
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
